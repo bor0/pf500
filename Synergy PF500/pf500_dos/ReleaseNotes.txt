@@ -1,0 +1,4 @@
+28-06-2002 +Dopolnitelni proverki i inicijalizacii na COM portite
+	   * Otstraneta porakata async sto se pojavuvase vo comandnata linija		
+12-04-2002 +Dokumentacija
+10-04-2002 +Kreiran Fiscal.exe

@@ -1,0 +1,9 @@
+28-06-2002 *Dopolnitelni proverki i inicijalizacii na COM portite
+		(posebno vazno kaj masini so prvite Win95)
+15-06-2002 *Podrska za COM porti od multiport karti (COM1-COM20...)
+03-06-2002 *Sreden bagot za opsiot na artiklite vo dva reda
+29-05-2002 *Zabrzana rabotata na programot
+03-05-2002 ...
+29-04-2002 ...
+08-04-2002 +Dokumentacija
+06-04-2002 +Kreiran Fiscal32.exe
