@@ -202,6 +202,13 @@ public class FiscalCash
         File.Delete(FileOut.ToString());
     }
 
+    public bool CheckError()
+    {
+        this.InitInterface();
+        byte[] test = InitRawCommand("!");
+        return (test[3] & 1) == 1;
+    }
+
     public byte[] IssueBill()
     {
         return InitRawCommand("5\t\r\n8 \r\n\r\n");

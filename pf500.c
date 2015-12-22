@@ -86,11 +86,6 @@ char *initCommand(char command, char *commandData) {
 	}
 	
 	if (data[0] == '\0') strcpy(data + 4, "ERROR: No bytes to read");
-	else {
-		i = 0;
-		while (data[i] != 0x04) i++;
-		data[i] = '\0';
-	}
 	fprintf(outFile, "%s\n", data + 4);
 
 	return data;
